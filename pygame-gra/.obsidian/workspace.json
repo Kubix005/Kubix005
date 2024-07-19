@@ -11,12 +11,8 @@
             "id": "759bfbdffd3435cc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "krok 0.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "krok 0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "krok 0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "krok 0.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,8 +140,8 @@
   },
   "active": "759bfbdffd3435cc",
   "lastOpenFiles": [
-    "krok 1.md",
-    "krok 0.md",
+    "Gabrys - instalacja.md",
+    "AI w grze.md",
     "krok_2.md"
   ]
 }
