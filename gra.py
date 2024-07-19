@@ -7,7 +7,7 @@ dlugosc = 300
 window = pygame.display.set_mode((wysokosc,dlugosc))
 pygame.display.set_caption("Pygame - projekt")
 
-gracz = pygame.Rect(50, 50, 50, 50)
+gracz = pygame.Rect(125, 125, 50, 50)
 gracz_kolor = (0, 0, 0)
 clock = pygame.time.Clock()
 gracz_szybkosc = 5
@@ -19,7 +19,7 @@ while True:
             sys.exit()
 
     keys = pygame.key.get_pressed()
-
+    
     if keys[pygame.K_w] and gracz.top > 0:
         gracz.y -= gracz_szybkosc
     if keys[pygame.K_s] and gracz.bottom < window.get_height():
