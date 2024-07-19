@@ -7,7 +7,11 @@ dlugosc = 300
 window = pygame.display.set_mode((wysokosc,dlugosc))
 pygame.display.set_caption("Pygame - projekt")
 
-gracz = pygame.Rect(125, 125, 50, 50)
+gracz_x = 50
+gracz_y = 50
+poprawne_x = int(dlugosc / 2 - gracz_x / 2)
+poprawne_y = int(wysokosc / 2 - gracz_y / 2)
+gracz = pygame.Rect(poprawne_x, poprawne_y, gracz_x, gracz_y)
 gracz_kolor = (0, 0, 0)
 clock = pygame.time.Clock()
 gracz_szybkosc = 5
